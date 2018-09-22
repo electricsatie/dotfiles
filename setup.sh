@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# TODO: Change dot files name from white list to black list.
+
 PWD=$(pwd)
 
 DOT_FILES=(
@@ -7,6 +9,7 @@ DOT_FILES=(
     .bashrc
     .gitconfig
     .gitignore_global
+    .gitmessage.txt
     .vimrc
 )
 
