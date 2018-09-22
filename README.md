@@ -1,5 +1,5 @@
 # dotfiles
 
-electricsatie's dotfiles
+electric satie's dotfiles...
 
 
