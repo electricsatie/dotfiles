@@ -3,6 +3,10 @@
 PWD=$(pwd)
 
 DOT_FILES=(
+    .bash_profile
+    .bashrc
+    .gitconfig
+    .gitignore_global
     .vimrc
 )
 
