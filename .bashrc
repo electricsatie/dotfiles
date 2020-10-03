@@ -22,6 +22,8 @@ alias gbc='gb --contains | cut -b 3-'
 alias ghqcd='cd $( ghq list | peco | xargs -I{} echo `ghq root`/{} )'
 alias ghqcr='git config --global ghq.root $(git config --global --get-regexp "ghq.candidate.*" | sed -e "s/ghq.candidate.[0-9a-zA-Z]* //g" | peco )'
 
+# xcode open command 
+alias xopen='open -a /Applications/Xcode.app'
 
 
 
