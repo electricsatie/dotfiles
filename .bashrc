@@ -17,10 +17,10 @@ alias og='oc $( git config remote.origin.url | sed s/ssh/https/ | sed s/git@// )
 ####################################################################################################
 # git command
 ####################################################################################################
-alias gb='git branch'
-alias gp='git pull'
-alias gck='git checkout'
 alias gf='git fetch'
+alias gp='git pull'
+alias gb='git branch'
+alias gck='git checkout'
 alias gcp='git cherry-pick'
 alias gbc='gb --contains | cut -b 3-'
 
