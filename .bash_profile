@@ -19,3 +19,5 @@ eval "$(pyenv init -)"
 export GOPATH=~/dev/go
 export PATH=$GOPATH/bin:$PATH
 
+# Setting PATH for Node.js
+export PATH=$HOME/.nodebrew/current/bin:$PATH

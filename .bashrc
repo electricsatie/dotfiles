@@ -2,7 +2,8 @@
 # basic
 ####################################################################################################
 alias ll='ls -al'
-alias mkdiary='touch $(date "+%Y%m%d_%H%M").md'
+alias mkmd='touch $(date "+%Y%m%d_%H%M").md'
+alias soniq='sort | uniq'
 
 
 ####################################################################################################
@@ -25,6 +26,8 @@ alias gck='git checkout'
 alias gcp='git cherry-pick'
 alias gbc='gb --contains | cut -b 3-'
 alias pck='git checkout $(git branch | peco)'
+alias ghsite='git config remote.origin.url |sed s#git@github.com:#https://github.com/#'
+alias gh='oc `ghsite`'
 
 
 ####################################################################################################
